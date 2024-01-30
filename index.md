@@ -1,5 +1,6 @@
 ---
 title: Welcome to c55Math4833's Blog
+description: Welcome to c55Math4833's Blog
 draft: True
 tags: 
     - Welcome
