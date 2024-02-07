@@ -1,6 +1,6 @@
 ---
-title: 文獻計量學（Bibliometric）
-description: 文獻計量學（Bibliometric）之簡介。
+title: 文獻計量分析（Bibliometric）
+description: 文獻計量分析（Bibliometric）之簡介。
 draft: False
 date: 2024-02-05
 tags:

@@ -4,12 +4,11 @@ description: VOSviewer 之簡介。
 draft: False
 date: 2024-02-05
 tags:
-    - 學科
     - 自我學習
     - 文獻計量分析
 ---
 # Introduction
-VOSviewer 是我認為很方便的[文獻計量](20240205_文獻計量學（Bibliometric）)工具之一，因其快速且隨開及用的特性，個人很常使用其進行下述工作：
+VOSviewer 是我認為很方便的[文獻計量](20240205_文獻計量分析（Bibliometric）)工具之一，因其快速且隨開及用的特性，個人很常使用其進行下述工作：
 - 關鍵字檢視與檢索。
 - 文獻搜尋領域初步查閱。
 
