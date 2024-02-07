@@ -1,5 +1,5 @@
 ---
-title: 文獻計量分析工具-合併 Web of Science 與 Scopus 資料庫
+title: 文獻計量分析-合併 Web of Science 與 Scopus 資料庫
 description: 透過 R 的 bibliometrix 包合併 Web of Science 以及 Scopus 資料庫。
 draft: False
 date: 2024-02-07
