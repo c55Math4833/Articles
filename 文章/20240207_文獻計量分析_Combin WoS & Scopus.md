@@ -46,30 +46,30 @@ tags:
 ## 步驟 2：將個別 BibTex 格式結果轉換為 Bibliometrix 格式
 使用 R 語言之 Bibliometrix 函式庫轉換匯出數據為 Bibliometrix 可讀之格式。步驟如下述：  
 1. 載入 Bibliometrix 函式庫。
-    > library("bibliometrix")
+    > ```library("bibliometrix")```
 2. 轉換 Web of Science 匯出資料。  
     假設 Web of Science 匯出文件名稱為「savedrecs.bib」，則使用以下代碼將其轉換為 Bibliometrix 支援之 xlsx 格式：
-    ```
+    ```r
     file <- "savedrecs.bib"
     M <- convert2df(file, dbsource = "wos", format = "bibtex")
     write.xlsx(M, file = "WoS.xlsx")
     ```
-3. 轉換 Scopus 匯出資料。  
+1. 轉換 Scopus 匯出資料。  
     假設 Scopus 匯出文件名稱為「scopus.bib」，則使用以下代碼將其轉換為 Bibliometrix 支援之 xlsx 格式：
-    ```
+    ```r
     file <- "scopus.bib"
     N <- convert2df(file, dbsource = "scopus", format = "bibtex")
     write.xlsx(N, file = "Scopus.xlsx")
     ```
-4. 最後，將獲得「WoS.xlsx」、「Scopus.xlsx」二份文件。
+2. 最後，將獲得「WoS.xlsx」、「Scopus.xlsx」二份文件。
 
 ---
 ### 步驟 2.1：透過 Biblioshiny 操作 BibTex 格式轉換
 該過程亦可透過 Bibliometrix 的 Biblioshiny 進行轉換（使用 GUI 介面操作）。步驟如下述：
 1. 載入 Bibliometrix 函式庫。
-    > library("bibliometrix")
+    > ```library("bibliometrix")```
 2. 啟動 Biblioshiny。
-    > biblioshiny()
+    > ```biblioshiny()```
     <center><img style = "max-height: 500px;" src="20240207_CombinW&S_1.avif"/></center>
 3. 載入 Web of Science 匯出資料。
     > Data --> Load Data -->   
