@@ -6,6 +6,10 @@ date: 2024-02-07
 tags:
     - 文獻計量分析
     - 開發
+    - R
+    - bibliometrix
+    - Web of Science
+    - Scopus
 ---
 # Introduction
 在進行[文獻計量分析](20240205_文獻計量分析（Bibliometric）)時，首先會進行主題訂定，接著透過彙整關鍵字等檢索邏輯在引用文獻索引型資料庫（Citation Databases）進行檢索。  
