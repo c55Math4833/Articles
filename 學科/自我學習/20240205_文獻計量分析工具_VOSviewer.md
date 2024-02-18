@@ -29,7 +29,7 @@ VOSviewer 軟體可透過[官方網頁](https://www.vosviewer.com/)逕行下載�
     <center><img style = "max-height: 500px;" src="/20240205_VOSviewer_NonJava_1.avif"/>  <img style = "max-height: 500px;" src="/20240205_VOSviewer_NonJava_2.avif"/>  </center>
 5. 將第 2 步取得的 VOSviewer zip 文件中的 "VOSviewer.jar" 解壓縮至第 3 步建立之資料夾。
 6. 於資料夾中新增文字文件，並將以下內容貼上：
-    ```shell
+    ```powershell
     @echo off
     if "%1"=="hide" (
         shift
