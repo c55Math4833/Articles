@@ -16,33 +16,33 @@ tags:
 # 操作流程
 1. 先在目標位置（如 Github）建立一個子儲存庫。
 2. 複製原本的母儲存庫並切換至該目錄：
-	```
+	```powershell
 	git clone <母儲存庫位址> <母儲存庫放置資料夾>
 	cd <母儲存庫放置資料夾>
 	```
 3. 刪除母儲存庫之 origin remote：
-	```
+	```powershell
 	git remote rm origin
 	```
 4. 僅留下母儲存庫中，要放在子儲存庫中之資料夾：
-	```
+	```powershell
 	git filter-branch --subdirectory-filter <子儲存庫要的資料夾> -- --all
 	```
 5. 僅查內容無誤後，重新添加子儲存庫之 origin remote 並推送：
-	```
+	```powershell
 	git remote add origin <子儲存庫位址>
 	git push
 	```
-6. 檢查子儲存庫內容無誤後，刪除母儲存庫中要使用子儲存庫替代的地方（前面的 ```<子儲存庫要的資料夾>```）：
-	```
+6. 檢查子儲存庫內容無誤後，刪除母儲存庫中要使用子儲存庫替代的地方（前面的 ```<子儲存庫要的資料夾>{:powershell}```）：
+	```powershell
 	git rm -r <要使用子儲存庫取代的資料夾>
 	```
 7. 使用 git submodule 將子儲存庫附加於母儲存庫之相應位置：
-	```
+	```powershell
 	git submodule add <子儲存庫位址（Url）> <要使用子儲存庫取代的資料夾>
 	```
 8. 檢查能順利執行後進行提交與推送：
-    ```
+    ```powershell
 	git commit
 	git push
 	```
