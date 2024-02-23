@@ -1,6 +1,7 @@
 ---
-title: 文獻計量分析-合併 Web of Science 與 Scopus 資料庫
+title: 如何合併 Web of Science 與 Scopus 資料庫數據
 description: 透過 R 的 bibliometrix 包合併 Web of Science 以及 Scopus 資料庫。
+ogimage: 文章/og-images/1-CombinW&S.jpg
 draft: False
 date: 2024-02-07
 tags:
@@ -74,14 +75,14 @@ tags:
     > ```library("bibliometrix")```
 2. 啟動 Biblioshiny。
     > ```biblioshiny()```
-    <center><img style = "max-height: 500px;" src="20240207_CombinW&S_1.avif"/></center>
+    <center><img style = "max-height: 500px;" src="1-CombinW&S_1.avif"/></center>
 3. 載入 Web of Science 匯出資料。
     > Data --> Load Data -->   
     > Please, choose what to do: "Import raw file(s)" -->   
     > Database: "Web of Science (WoS/WoK)" -->   
     > Choose a file: 選擇檔案或將檔案拖曳 -->   
     > ▶ Start  
-    <center><img style = "max-height: 500px;" src="20240207_CombinW&S_2.avif"/></center>
+    <center><img style = "max-height: 500px;" src="1-CombinW&S_2.avif"/></center>
 
     於此階段可以檢查載入數據比述及資訊資訊比例
 4. 轉換 Web of Science 匯出資料。 
@@ -177,9 +178,9 @@ tags:
 ---
 # References
 1. Clarivate. _The History of ISI and the work of Eugene Garfield_. https://clarivate.com/the-institute-for-scientific-information/history-of-isi/
-2. Martín-Martín, A., Thelwall, M., Orduna-Malea, E. et al. Google Scholar, Microsoft Academic, Scopus, Dimensions, Web of Science, and OpenCitations’ COCI: a multidisciplinary comparison of coverage via citations. _Scientometrics_ 126, 871–906 (2021). https://doi-org.ntust.idm.oclc.org/10.1007/s11192-020-03690-4
-3. Singh, V.K., Singh, P., Karmakar, M. et al. The journal coverage of Web of Science, Scopus and Dimensions: A comparative analysis. _Scientometrics_ 126, 5113–5142 (2021). https://doi-org.ntust.idm.oclc.org/10.1007/s11192-021-03948-5
-4. Stahlschmidt, S., Stephen, D. From indexation policies through citation networks to normalized citation impacts: Web of Science, Scopus, and Dimensions as varying resonance chambers. _Scientometrics_ 127, 2413–2431 (2022). https://doi-org.ntust.idm.oclc.org/10.1007/s11192-022-04309-6
-5. Liu, W., Huang, M. & Wang, H. Same journal but different numbers of published records indexed in Scopus and Web of Science Core Collection: causes, consequences, and solutions. _Scientometrics_ 126, 4541–4550 (2021). https://doi-org.ntust.idm.oclc.org/10.1007/s11192-021-03934-x
-6. Caputo, A., Kargina, M. A user-friendly method to merge Scopus and Web of Science data during bibliometric analysis. _J Market Anal_ 10, 82–88 (2022). https://doi-org.ntust.idm.oclc.org/10.1057/s41270-021-00142-7
+2. Martín-Martín, A., Thelwall, M., Orduna-Malea, E. et al. Google Scholar, Microsoft Academic, Scopus, Dimensions, Web of Science, and OpenCitations' COCI: a multidisciplinary comparison of coverage via citations. _Scientometrics_ 126, 871–906 (2021). https://doi.org/10.1007/s11192-020-03690-4
+3. Singh, V.K., Singh, P., Karmakar, M. et al. The journal coverage of Web of Science, Scopus and Dimensions: A comparative analysis. _Scientometrics_ 126, 5113–5142 (2021). https://doi.org/10.1007/s11192-021-03948-5
+4. Stahlschmidt, S., Stephen, D. From indexation policies through citation networks to normalized citation impacts: Web of Science, Scopus, and Dimensions as varying resonance chambers. _Scientometrics_ 127, 2413–2431 (2022). https://doi.org/10.1007/s11192-022-04309-6
+5. Liu, W., Huang, M. & Wang, H. Same journal but different numbers of published records indexed in Scopus and Web of Science Core Collection: causes, consequences, and solutions. _Scientometrics_ 126, 4541–4550 (2021). https://doi.org/10.1007/s11192-021-03934-x
+6. Caputo, A., Kargina, M. A user-friendly method to merge Scopus and Web of Science data during bibliometric analysis. _J Market Anal_ 10, 82–88 (2022). https://doi.org/10.1057/s41270-021-00142-7
 7. Echchakoui, S. Why and how to merge Scopus and Web of Science during bibliometric analysis: the case of sales force literature from 1912 to 2019. _J Market Anal_ 8, 165–184 (2020). https://doi.org/10.1057/s41270-020-00081-9
