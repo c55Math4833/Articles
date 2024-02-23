@@ -1,7 +1,7 @@
 ---
 title: 如何合併 Web of Science 與 Scopus 資料庫數據
 description: 透過 R 的 bibliometrix 包合併 Web of Science 以及 Scopus 資料庫。
-ogimage: 文章/og-images/1-CombinW&S.jpg
+ogimage: 文章/og-images/1-CombinW-and-S.jpg
 draft: False
 date: 2024-02-07
 tags:
