@@ -49,4 +49,4 @@ tags:
 
 # References
 
-1. Puck Wang. (2020). *Git 進階應用 Submodule 與 Subtree，使用它們來拆分專案*. https://blog.puckwang.com/posts/2020/git-submodule-vs-subtree/
+1. Puck Wang. (2020). <i>Git 進階應用 Submodule 與 Subtree，使用它們來拆分專案</i>. https://blog.puckwang.com/posts/2020/git-submodule-vs-subtree/
