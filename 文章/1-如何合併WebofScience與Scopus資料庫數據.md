@@ -8,7 +8,7 @@ tags:
     - 文獻計量分析
     - 開發
     - R
-    - bibliometrix
+    - Bibliometrix
     - Web of Science
     - Scopus
 ---

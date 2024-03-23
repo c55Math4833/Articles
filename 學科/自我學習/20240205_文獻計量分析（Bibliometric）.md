@@ -7,6 +7,8 @@ tags:
     - 學科
     - 自我學習
     - 文獻計量分析
+    - VOSviewer
+    - Bibliometrix
 ---
 
 # 文獻計量分析類別
@@ -53,7 +55,7 @@ tags:
 	- 目標：創建主題
 - 可視化：
 	- [VOSviewer](20240205_文獻計量分析工具_VOSviewer)
-	- Bibliometrix Pack in R
+	- [Bibliometrix](tags/Bibliometrix) Pack in R
 	- Bibexcel
 	- Pajek
 	- Gephi
