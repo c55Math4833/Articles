@@ -12,7 +12,7 @@ tags:
 課程使用之教科書為：  
 > Wallace, S. (2014). <i>How to Attend, Speak or Present a Poster at an Academic Conference</i> (Third Edition). Wallace Academic Editing. https://textbooks.tw/products/how-to-attend-speak-or-present-a-poster-at-an-academic-conference-third-edition
 
-26/02/2024 14:35
+> 26/02/2024 14:35
 # 研討會流程
 ```mermaid
 flowchart LR
