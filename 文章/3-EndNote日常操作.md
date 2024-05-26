@@ -1,6 +1,8 @@
 ---
 title: EndNote 書目管理軟體日常操作紀錄
 description: EndNote 書目管理軟體，個人習慣的使用方法紀錄。
+disableSPA: True
+discussion: True
 draft: False
 date: 2024-03-29
 tags:

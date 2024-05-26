@@ -1,6 +1,8 @@
 ---
 title: Microsoft Word 日常操作紀錄-編號項目
 description: Microsoft Word 自動編號上個人習慣的使用方法紀錄。
+disableSPA: True
+discussion: True
 draft: False
 date: 2024-02-16
 tags:
