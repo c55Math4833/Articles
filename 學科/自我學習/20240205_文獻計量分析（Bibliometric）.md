@@ -81,5 +81,7 @@ tags:
 
 # References
 
-1. Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. <i>Journal of Business Research</i>, 133, 285-296. https://doi.org/10.1016/j.jbusres.2021.04.070
-2. Ermel, A. P. C., Lacerda, D. P., Morandi, M. I. W. M., & Gauss, L. (2021). <i>Literature Reviews</i> (1 ed.). Springer Cham. https://doi.org/10.1007/978-3-030-75722-9
+1. Donthu, N., Kumar, S., Mukherjee, D., Pandey, N., & Lim, W. M. (2021). How to conduct a bibliometric analysis: An overview and guidelines. <i>Journal of Business Research</i>, 133, 285-296.  
+	[![DOI:10.1016/j.jbusres.2021.04.070](https://zenodo.org/badge/DOI/10.1016/j.jbusres.2021.04.070.svg)](https://doi.org/10.1016/j.jbusres.2021.04.070)
+1. Ermel, A. P. C., Lacerda, D. P., Morandi, M. I. W. M., & Gauss, L. (2021). <i>Literature Reviews</i> (1 ed.). Springer Cham.   
+	[![DOI:10.1007/978-3-030-75722-9](https://zenodo.org/badge/DOI/10.1007/978-3-030-75722-9.svg)](https://doi.org/10.1007/978-3-030-75722-9)
