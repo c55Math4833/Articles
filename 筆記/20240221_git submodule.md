@@ -4,7 +4,6 @@ draft: False
 date: 2024-02-19
 tags:
     - git
-    - 素養
     - 開發
     - 自我學習
 ---
