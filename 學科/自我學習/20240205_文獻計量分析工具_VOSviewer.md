@@ -2,6 +2,8 @@
 title: 文獻計量分析工具-VOSviewer
 description: VOSviewer 之簡介。
 draft: False
+disableSPA: True
+discussion: True
 date: 2024-02-05
 tags:
     - 自我學習
@@ -52,7 +54,7 @@ VOSviewer 軟體可透過[官方網頁](https://www.vosviewer.com/)逕行下載�
 7. 將該文字文件另存新檔。其中，檔案名稱任意，但副檔名需為「.bat」，而存檔類型需為「所有檔案」。可得結果如下（本示範命名為「Run me.bat」）：
     <center><img style = "max-height: 500px;" src="/20240205_VOSviewer_NonJava_3.avif"/></center>
 8. 執行該批次檔即可執行 VOSviewer。
-9. ==注意==：本方法使用 jPortable，將不會自動更新 Java 版本，為保障資通訊安全請自行定期更新。
+9. ==注意==：本方法使用 jPortable，是由 [PortableApps.com](https://portableapps.com/about) 發布的便攜式 Java，將不會自動更新 Java 版本，為保障資通訊安全請自行定期更新。
 
 # VOSviewer 軟體基本操作步驟
 1. Create → 建立文獻地圖 → 選擇資料輸入方式 → 選擇檔案（可複選）：
