@@ -2,6 +2,8 @@
 title: Welcome
 description: Welcome to c55Math4833's Blog
 draft: False
+disableSPA: True
+discussion: True
 date: 2024-01-31
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: GitHub GPG 操作紀錄
 draft: False
+disableSPA: True
+discussion: True
 date: 2024-07-02
 tags:
     - git

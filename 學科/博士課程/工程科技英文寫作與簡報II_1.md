@@ -3,6 +3,7 @@ title: 工程科技英文寫作與簡報 II
 description: 博士課程\工程科技英文寫作與簡報II
 draft: False
 disableSPA: True
+discussion: True
 date: 2024-02-26
 tags:
   - 博士課程
