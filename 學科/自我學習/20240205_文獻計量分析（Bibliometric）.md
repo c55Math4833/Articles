@@ -6,7 +6,6 @@ disableSPA: True
 discussion: True
 date: 2024-02-05
 tags:
-    - 學科
     - 自我學習
     - 文獻計量分析
     - VOSviewer
