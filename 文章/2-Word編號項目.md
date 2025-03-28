@@ -65,7 +65,7 @@ Microsoft Word 是使用 Microsoft Windows 以及 macOS 作業系統下常使用
     <center><img style = "max-height: 500px;" src="2-Word編號項目_11.avif"/></center>  
     <center>圖 11. 方法二：編輯多層次清單。</center>  
     <center><img style = "max-height: 500px;" src="2-Word編號項目_12.avif"/></center>  
-    <center>圖 12. 方法二：標號建立成果。</center>   
+    <center>圖 12. 方法二：標號建立成果（編號後置字元使用定位符號，可依需求調整為空格或不要，圖 14 為改空格的使用成果）。</center>   
 4. 使用交互參照功能：選定標號交互參照放置位置 > 參考資料 > 標號 > 交互參照。
 5. 插入交互參照：選擇參照類型「編號項目」 > 調整插入參照類型（通常選用「段落編號」） > 插入，如圖 13 。成果如圖 14 ，[成果範例文件](/文章/docs/2-Word編號項目_範例文件_多層次清單.docx)。 
     <center><img style = "max-height: 500px;" src="2-Word編號項目_13.avif"/></center>  
