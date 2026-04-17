@@ -6,6 +6,7 @@ discussion: True
 date: 2025-12-08
 tags:
     - 文書
+    - 開發
 ---
 # 前言 Introduction
 在傳輸或分享 PDF 文件時，有時會需要移除或改變文字的可搜尋/可複製性，以避免資訊被輕易提取。  
