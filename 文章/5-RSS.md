@@ -2,7 +2,6 @@
 title: RSS - 從演算法束縛到自主選讀
 description: 儘管 RSS 在現今已經鮮少在周遭生活中被提及，但它仍然是資訊獲取的重要工具。
 disableSPA: True
-discussion: True
 draft: False
 date: 2025-08-21
 tags:

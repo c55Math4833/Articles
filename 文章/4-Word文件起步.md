@@ -1,8 +1,6 @@
 ---
 title: Microsoft Word 日常操作紀錄-開始一份新文件
 description: Microsoft Word 從頭開始撰寫一份報告書的個人習慣操作紀錄。
-disableSPA: True
-discussion: True
 draft: False
 date: 2024-11-19
 tags:

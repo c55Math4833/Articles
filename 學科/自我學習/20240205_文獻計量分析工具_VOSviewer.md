@@ -2,8 +2,6 @@
 title: 文獻計量分析工具-VOSviewer
 description: VOSviewer 之簡介。
 draft: False
-disableSPA: True
-discussion: True
 date: 2024-02-05
 tags:
     - 自我學習

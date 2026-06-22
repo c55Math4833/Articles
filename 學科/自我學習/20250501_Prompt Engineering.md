@@ -1,10 +1,8 @@
 ---
 title: Prompt Engineering
 draft: False
-disableSPA: True
-discussion: True
 date: 2025-04-28
-updateDocDate: 2026-04-17
+last-modified: 2026-04-17
 tags:
     - 自我學習
     - 人工智慧

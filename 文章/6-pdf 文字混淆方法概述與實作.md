@@ -1,8 +1,6 @@
 ---
 title: pdf 文字混淆方法概述與實作
 draft: False
-disableSPA: True
-discussion: True
 date: 2025-12-08
 tags:
     - 文書

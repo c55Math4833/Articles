@@ -1,8 +1,6 @@
 ---
 title: Python 代碼打包與代碼保護 (Windows)
 draft: False
-disableSPA: True
-discussion: True
 date: 2026-04-17
 tags:
     - 開發
