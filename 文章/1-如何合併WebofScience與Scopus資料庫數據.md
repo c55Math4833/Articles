@@ -5,6 +5,7 @@ ogimage: 文章/og-images/1-CombinW-and-S.jpg
 draft: False
 date: 2024-02-07
 tags:
+    - 文章
     - 文獻計量分析
     - 開發
     - R

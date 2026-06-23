@@ -5,10 +5,11 @@ disableSPA: True
 draft: False
 date: 2025-08-21
 tags:
-   - 資訊過載
-   - RSS
-   - 想法
-   - 隱私
+    - 文章
+    - 資訊過載
+    - RSS
+    - 想法
+    - 隱私
 cloudjs:
    - "https://cdn.jsdelivr.net/npm/chart.js"
 ---

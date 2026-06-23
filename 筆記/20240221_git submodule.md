@@ -3,6 +3,7 @@ title: git submodule 操作紀錄
 draft: False
 date: 2024-02-19
 tags:
+    - 筆記
     - git
     - 開發
 ---

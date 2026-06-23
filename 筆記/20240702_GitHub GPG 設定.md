@@ -3,6 +3,7 @@ title: GitHub GPG 操作紀錄
 draft: False
 date: 2024-07-02
 tags:
+    - 筆記
     - git
     - 開發
 ---

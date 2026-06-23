@@ -2,7 +2,9 @@
 title: Python 代碼打包與代碼保護 (Windows)
 draft: False
 date: 2026-04-17
+last-modified: 2026-06-23
 tags:
+    - 文章
     - 開發
     - Python
     - 應用程式
@@ -87,7 +89,7 @@ Python 專案打包與保護的幾種常見方法有 PyInstaller、Nuitka 和 Py
 - **步驟**：
   1. 編寫 `setup.py` 腳本，使用 Cython 將核心模組程式碼編譯為 C 語言底層代碼。
        - **範例** (假設核心模組程式碼名稱為 `my_module.py`)：
-         ```python
+         ```python title="setup.py"
          from setuptools import setup
          from Cython.Build import cythonize
 
@@ -105,7 +107,7 @@ Python 專案打包與保護的幾種常見方法有 PyInstaller、Nuitka 和 Py
        - 這時，可以把原本的 `my_module.py` 和其他生成的檔案刪除；只保留 `my_module.pyd`，並在主程式中改為匯入 `my_module` 模組（不需要副檔名）。測試執行主程式，確保功能正常。
   3. 建立一個接入點腳本（例如 `main.py`），在其中匯入並使用編譯後的模組。（如果沒有這個步驟，PyInstaller 可能無法正確識別並打包編譯後的模組）
        - **範例**：
-         ```python
+         ```python title="main.py"
          import my_module
          import <列出所有其他所需模組>
 

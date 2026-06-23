@@ -4,6 +4,7 @@ description: EndNote 書目管理軟體，個人習慣的使用方法紀錄。
 draft: False
 date: 2024-03-29
 tags:
+    - 文章
     - Microsoft Word
     - EndNote
     - 文書
