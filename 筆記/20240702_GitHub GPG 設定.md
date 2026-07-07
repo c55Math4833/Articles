@@ -14,19 +14,19 @@ tags:
 主要參考自 [GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/checking-for-existing-gpg-keys)
 1. 安裝適用於自己作業系統的 [GPG(GnuPG)](https://www.gnupg.org/)。
 2. 透過命令提示字元檢查是否有既有的 GPG 密鑰：  
-	```powershell
-	gpg --list-secret-keys --keyid-format=long
-	```
+    ```powershell
+    gpg --list-secret-keys --keyid-format=long
+    ```
 3. 若沒有既有 GPG 密鑰或是有密鑰但想另外建立一個的話，使用以下代碼建立新的密鑰（若有既有密鑰並預計使用它可直接跳至下方第 5 步）：  
-	```powershell
-	gpg --full-generate-key
-	```
-	1. 其中，第一步驟為決定密鑰算法。截至目前，GitHub 支援 RSA、ElGamal、DSA、ECDH、ECDSA、EdDSA 算法，若沒特別需求可以直接用預設值 RSA，後面步驟已 RSA 為例。
-	2. 第二步將定義密鑰長度。
-	3. 第三步將定義此密鑰的使用期限，可調整從幾日、月、年到無期限 (0)。
-	4. 第四步確認前三步是否有誤。
-	5. 第五步輸入使用者資訊。分別是 Real name (名字，可自訂)、Email address (電子信箱，必須填 GitHub 中有紀錄的信箱或是 GitHub 提供的 [noreply 信箱](https://github.com/settings/emails)。惟須注意應與 Git 所設置的信箱一致，可察看[以下說明](#git-與密鑰信箱不一致))、Comment (備註，可自訂)
-	6. 建立完密鑰後，可再次查看是否有既有的 GPG 密鑰：  
+    ```powershell
+    gpg --full-generate-key
+    ```
+    1. 其中，第一步驟為決定密鑰算法。截至目前，GitHub 支援 RSA、ElGamal、DSA、ECDH、ECDSA、EdDSA 算法，若沒特別需求可以直接用預設值 RSA，後面步驟已 RSA 為例。
+    2. 第二步將定義密鑰長度。
+    3. 第三步將定義此密鑰的使用期限，可調整從幾日、月、年到無期限 (0)。
+    4. 第四步確認前三步是否有誤。
+    5. 第五步輸入使用者資訊。分別是 Real name (名字，可自訂)、Email address (電子信箱，必須填 GitHub 中有紀錄的信箱或是 GitHub 提供的 [noreply 信箱](https://github.com/settings/emails)。惟須注意應與 Git 所設置的信箱一致，可察看[以下說明](#git-與密鑰信箱不一致))、Comment (備註，可自訂)
+    6. 建立完密鑰後，可再次查看是否有既有的 GPG 密鑰：  
         ```powershell
         gpg --list-secret-keys --keyid-format=long
         ```
@@ -39,30 +39,30 @@ tags:
         ```
         此時，主要密鑰編號為 sec 列中的 `AAAAAAAAAAAAAAAA`
 4. 產生公鑰：  
-	```powershell
-	gpg --armor --export AAAAAAAAAAAAAAAA
-	```
-	此時，將輸出開頭為 `-----BEGIN PGP PUBLIC KEY BLOCK-----`；結尾為 `-----END PGP PUBLIC KEY BLOCK-----` 的公鑰，將其含頭尾整段複製到 GitHub 帳號設定的 [SSH and GPG keys](https://github.com/settings/keys) > [New GPG key](https://github.com/settings/gpg/new) 中，並可自訂這個密鑰的標題方便記憶。
+    ```powershell
+    gpg --armor --export AAAAAAAAAAAAAAAA
+    ```
+    此時，將輸出開頭為 `-----BEGIN PGP PUBLIC KEY BLOCK-----`；結尾為 `-----END PGP PUBLIC KEY BLOCK-----` 的公鑰，將其含頭尾整段複製到 GitHub 帳號設定的 [SSH and GPG keys](https://github.com/settings/keys) > [New GPG key](https://github.com/settings/gpg/new) 中，並可自訂這個密鑰的標題方便記憶。
 5. 更新 Git 設定，其他詳細可參考 [GitHub Docs](https://docs.github.com/en/authentication/managing-commit-signature-verification/telling-git-about-your-signing-key)：  
-	```powershell
-	// 設定主密鑰
-	git config --global user.signingkey AAAAAAAAAAAAAAAA
-	// 設定預設使用 GPG 簽署所有提交
-	git config --global commit.gpgsign true
-	```
+    ```powershell
+    // 設定主密鑰
+    git config --global user.signingkey AAAAAAAAAAAAAAAA
+    // 設定預設使用 GPG 簽署所有提交
+    git config --global commit.gpgsign true
+    ```
 
 # 踩坑解決紀錄
 ## Git 與密鑰信箱不一致
 當 GPG 密鑰資料填寫信箱時，需確認與 Git 設定的信箱相同。  
 否則提交後將顯示 Unverified，並告知 `The email in this signature doesn’t match the committer email.`。
 1. 檢查 Git config 中所記錄的信箱：
-	```powershell
-	 git config user.email
-	```
+    ```powershell
+     git config user.email
+    ```
 2. 若與 GPG 密鑰信箱不同，可使用以下代碼更換信箱：
-	```powershell
-	 git config --global user.email "....@email..."
-	```
+    ```powershell
+     git config --global user.email "....@email..."
+    ```
 
 ## Windows 系統下 Git 找不到 GPG 路徑
 有時候 Git 不知道 GPG 的安裝路徑，告知錯誤 `gpg: skipped : No secret key gpg: signing failed: No secret key`。  
